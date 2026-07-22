@@ -1,0 +1,16 @@
+# Human participant or source-study data must not be committed.
+data/private/
+data/raw/
+*.vcf
+*.vcf.gz
+*.bam
+*.cram
+*.fastq
+*.fastq.gz
+*patient_level*
+*patient-level*
+*msk138*
+*.RData
+.env
+__pycache__/
+*.pyc

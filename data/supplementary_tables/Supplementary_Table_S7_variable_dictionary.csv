@@ -1,0 +1,11 @@
+analysis,variable,definition,coding_or_scale,missingness_in_fitted_model,interpretation_boundary
+Lee discovery,PFS,Months from treatment start to progression or last follow-up,Continuous; PFS_status 1=progression event and 0=censored,None among 24 locked records,Published survival endpoint reconciled to the published risk table and swimmer plot
+Lee discovery,protein_altering_mutation_count,Count of deduplicated protein-altering records in the official Lee MAF,Continuous and cohort-median descriptive split,None among 24 records,Not clinical TMB because no callable-megabase denominator is provided in the official supplement
+Lee discovery,HLA_A_homozygous,Equality of the two published HLA-A alleles,Boolean,None among 24 records,The low-mutation/HLA-A-homozygous cell is empty; no independent HLA-A or interaction estimate is identifiable
+Miao/DFCI,PFS_MONTHS,Patient-level PFS in cBioPortal ccrcc_dfci_2019,Continuous; PFS_EVENT 1=event and 0=censored,None among 35 fitted records,Treated-cohort association only
+Miao/DFCI,protein_altering_mutation_count,Count of linked protein-altering mutation records per patient,Rank variable and raw count scaled by empirical IQR (75th minus 25th percentile),None among 35 fitted records,Not HLA/HED/presentation validation
+Miao/DFCI,FIRST_LINE_THERAPY,cBioPortal first-line therapy field,0=no and 1=yes,None among 35 adjusted-model records,Adjustment covariate only
+Miao/DFCI,log2_dose,Base-2 log of numeric mg/kg parsed from TREATMENT_GROUP,Continuous,None among 35 adjusted-model records,Adjustment covariate only; dose labels are source-data derived
+MSK,OS,Overall survival from tmb_mskcc_2018,Continuous; event coding from portal,None among the fitted conditional model subset,Outcome differs from discovery PFS
+MSK,TMB,Portal-provided nonsynonymous mutations per megabase,Continuous with median and upper-tertile sensitivity strata,None among joined records,Targeted-panel TMB; not interchangeable with Lee protein-altering mutation count
+MSK,HLA_any_homozygous,At least one HLA-A/HLA-B/HLA-C locus homozygous from linked MSK50K HLA fields,Boolean,None among joined records,Post hoc conditional association; not an HLA-A-specific direct replication

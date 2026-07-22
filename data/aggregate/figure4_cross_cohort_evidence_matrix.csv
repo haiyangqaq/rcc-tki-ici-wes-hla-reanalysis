@@ -1,0 +1,9 @@
+cohort,n,endpoint,directness,direction,boundary
+Lee lenvatinib+pembrolizumab,24,PFS,Post hoc,Adverse,Composite = HLA-A homozygosity
+Miao nivolumab,35,PFS,Mutation only,Adverse,No linked HLA
+Braun nivolumab,261,PFS/OS,Direct,Null,"TMB, neoantigen and zygosity null"
+JAVELIN avelumab+axitinib,333,PFS,Direct proxy,Null,High-TMB HLA-A single vs multi
+Chowell multi-ICI RCC,91,PFS/OS,Direct proxy,Null,High-TMB/low-HED null
+SNiP-RCC nivolumab,222,Benefit/CSS,HLA only,Protective,High HED-B associated with benefit
+Nature Cancer IO/IO,128,Response,HLA only,Null,Mean HED ER vs PD null
+MSK RCC ICI,138,OS,Post hoc,Adverse,Conditional FDR; interaction FDR null

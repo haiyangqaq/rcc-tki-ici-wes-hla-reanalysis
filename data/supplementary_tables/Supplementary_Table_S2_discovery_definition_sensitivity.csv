@@ -1,0 +1,7 @@
+definition,n,events,rmst_difference,logrank_p
+HLA-A homozygous,3,3,-4.397142857142854,0.0004448187258263367
+"High burden + any HLA homo
+(median cutoff)",3,3,-4.397142857142854,0.0004448187258263367
+"High burden + any HLA homo
+(upper-tertile cutoff)",2,2,-5.939090909090904,0.0004448319995897604
+Any HLA-I homozygous,4,3,-3.032,0.25268159198222356

@@ -1,0 +1,13 @@
+set_short,class,n,total,frac
+"PXD017149 all
+HLA-I ligands",Basic K/R/H,256,1457,0.1757035003431709
+"PXD017149 all
+HLA-I ligands",Aromatic F/Y/W,488,1457,0.3349347975291695
+"PXD017149 all
+HLA-I ligands",Other,713,1457,0.4893617021276595
+"PXD017149 tumor-exclusive
+HLA-I ligands",Basic K/R/H,93,504,0.1845238095238095
+"PXD017149 tumor-exclusive
+HLA-I ligands",Aromatic F/Y/W,179,504,0.3551587301587302
+"PXD017149 tumor-exclusive
+HLA-I ligands",Other,232,504,0.4603174603174603
