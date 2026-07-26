@@ -1,6 +1,6 @@
 {
   "title": "Treatment-context dependence of mutation burden and HLA class I zygosity in renal cell carcinoma immunotherapy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "upload_type": "software",
   "description": "Code, aggregate source data, figures, and evidence-audit materials for an exploratory multi-cohort RCC immunogenomics reanalysis. Patient-level third-party data are intentionally excluded; see DATA_AVAILABILITY.md.",
   "creators": [
